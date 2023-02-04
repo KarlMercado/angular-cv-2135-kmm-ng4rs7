@@ -12,13 +12,15 @@ import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { ReferencesComponent } from './references/references.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
-  { path: 'about', component: AboutComponent },
-  { path: 'skills', component: SkillsComponent },
-  { path: 'education', component: EducationComponent },
-  { path: 'achievements', component: AchievementsComponent },
+  { path: 'About', component: AboutComponent },
+  { path: 'Skills', component: SkillsComponent },
+  { path: 'Education', component: EducationComponent },
+  { path: 'Achievements', component: AchievementsComponent },
   { path: 'References', component: ReferencesComponent },
+  { path: 'Pagenotfound', component: PagenotfoundComponent },
 ];
 
 @NgModule({
@@ -31,6 +33,7 @@ const routes: Routes = [
     EducationComponent,
     AchievementsComponent,
     ReferencesComponent,
+    PagenotfoundComponent,
   ],
   bootstrap: [AppComponent],
 })
